@@ -1,0 +1,19 @@
+##Global Simulation parameters
+
+master_config:
+  time_tick: 1  # Time tick in minutes
+#  start_date:  ??  # Start date (what format)
+#  start_time:  ??  # Start time hh:mm
+  number_of_days:  365  # Number of days for model output
+
+## Solar Collector parameters
+solar_collector:
+  sc_area: 128  # Collector area in square feet
+
+## Heat mass parameters
+heat_mass:
+  begin_earth_temp: 55  # Beginning earth temperature in degrees Fahrenheit
+
+## Occupied Space parameters
+occupied_space:
+  os_volume: 9000  #Climate controlled space volume in cubic feet
